@@ -1,0 +1,41 @@
+## Features
+1. **Auto-Farming NPCs:**
+   - Automatically obtain quests that correspond to the player's level.
+   - Efficiently locate and kill the required NPCs to complete the quests.
+
+2. **Fruit Collection:**
+   - Detect any fruit drops or fruit spawns on the ground.
+   - Quickly fly or teleport the player to the fruit's location to collect and store it.
+
+# Steps
+1. Start by developing the auto-farming logic:
+   - Identify the player's current level.
+   - Check available quests and select the one that matches the player's level.
+   - Navigate to the quest location and identify relevant NPCs.
+   - Implement an algorithm to efficiently attack and kill NPCs.
+
+2. Develop the fruit detection and collection mechanism:
+   - Continuously scan the environment for any fruit items dropped or spawned.
+   - Implement a method to quickly transport the player to the fruit's location.
+   - Ensure the player collects and stores the fruit securely.
+
+# Output Format
+- Your output should be a well-structured Lua script with comments explaining each part of the code.
+- Include functions and variables named clearly to describe their purpose.
+
+# Examples
+- **Auto-Farming NPCs:**
+  ```lua
+  function autoFarmNpcs(playerLevel)
+    -- Check available quests for playerLevel
+    -- Initiate quest
+    -- Locate and attack NPCs
+  end
+  ```
+- **Fruit Collection:**
+  ```lua
+  function collectFruits()
+    -- Detect fruit on the ground
+    -- Teleport to the fruit
+    -- Collect and store
+  end
